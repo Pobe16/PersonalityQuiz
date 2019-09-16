@@ -28,7 +28,7 @@
 		C8D454552304AFA800DCC663 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8D454582304AFA800DCC663 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8D4545A2304AFA800DCC663 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8D454602304AFDB00DCC663 /* QuestionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionScreen.swift; sourceTree = "<group>"; };
+		C8D454602304AFDB00DCC663 /* QuestionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionScreen.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		C8D454622304B02600DCC663 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -46,7 +46,6 @@
 		C8D454402304AFA700DCC663 = {
 			isa = PBXGroup;
 			children = (
-				C8A00DCE2315D90400AB92EA /* QuestionData.swift */,
 				C8D4544B2304AFA700DCC663 /* PersonalityQuiz */,
 				C8D4544A2304AFA700DCC663 /* Products */,
 			);
@@ -63,6 +62,7 @@
 		C8D4544B2304AFA700DCC663 /* PersonalityQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				C8A00DCE2315D90400AB92EA /* QuestionData.swift */,
 				C8D4544C2304AFA700DCC663 /* AppDelegate.swift */,
 				C8D4544E2304AFA700DCC663 /* SceneDelegate.swift */,
 				C8D454502304AFA700DCC663 /* StartingScreen.swift */,
